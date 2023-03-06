@@ -1,0 +1,23 @@
+@mixin defaultScheme {
+  // Colors
+  --ci-yellow: #ffc900;
+  --ci-yellow-light: #ffe100;
+  --ci-yellow-accent: #f3d6a0;
+
+  --bg-main: #fff;
+  --color-main: var(--ci-gray-light);
+  --color-inverse: #fff;
+  --color-link: var(--ci-blue);
+  --color-link-hover: #2f84b7;
+  --bg-menu-hover: #e2e2e2;
+
+  --bg-container: #f9f9f9;
+  --bg-box: var(--bg-container);
+
+  // Fonts
+  --font-family: "Encode Sans Condensed", sans-serif;
+}
+
+:root {
+  @include defaultScheme;
+}
